@@ -21,7 +21,7 @@ setMethod (
     .method.as.db.data.frame.1(x, table.name, conn.id,
                                add.row.names, key,
                                distributed.by, is.temp, ...),
-    valueClass = "db.data.frame")
+    valueClass = "db.table")
 
 ## ------------------------------------------------------------------------
 
@@ -37,7 +37,7 @@ setMethod (
     .method.as.db.data.frame.1(x, table.name, conn.id,
                                add.row.names, key,
                                distributed.by, is.temp, ...),
-    valueClass = "db.data.frame")
+    valueClass = "db.table")
 
 ## ------------------------------------------------------------------------
 
@@ -102,4 +102,4 @@ setMethod (
     def = function (x, table.name, conn.id, is.temp = FALSE) {
         stop("To be implemented !")
     },
-    valueClass = "db.data.frame")
+    valueClass = "db.table")
