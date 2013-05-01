@@ -27,3 +27,5 @@ export ("madlib.glm", "summary.logregr.madlib",
 export ("sample")
 
 exportMethods("$", "[[")
+
+export ("PivotalR")
